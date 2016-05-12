@@ -1,0 +1,210 @@
+/*------General----------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #333;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.w960 {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+a,a:hover {
+  color: #cc580c;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+ 
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+  position: relative;
+  height: 100vh;
+  bottom: 65px;
+}
+
+.fade-carousel .carousel-inner .item {
+  height: 100vh;
+}
+
+.fade-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+  border-radius: 0;
+  width: 20px;
+  height: 8px;
+}
+
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -ms-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.hero h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.hero h3 {
+  color: #fff;
+  font-weight: 26px;
+  font-weight: normal;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+
+.btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
+  color: #f5f5f5;
+  background-color: #DB8B0F;
+  border-color: #DB8B0F;
+  outline: none;
+  padding: 12px 32px;
+  margin: 20px auto;
+  border-radius: 0px;
+  border-bottom: 4px solid #FF9C00;
+}
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: .7;
+}
+ 
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.fade-carousel .slides .slide-1 {
+  background-image: url('../img/canteen.jpg');
+}
+
+.fade-carousel .slides .slide-2 {
+  background-image: url('../img/slide2.jpg');
+}
+
+.fade-carousel .slides .slide-3 {
+  background-image: url('../img/slide3.jpg');
+}
+
+
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left {
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right {
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+  background: #FFFFFF;
+}
+
+#quote-carousel .carousel-indicators .active {
+  background: #F39C12;
+}
+
+#quote-carousel img {
+  width: 250px;
+  height: 100px;
+  border-radius: 0px;
+  border: 4px solid rgba(237, 202, 24, 0.18);
+}
+/* End carousel */
