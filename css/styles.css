@@ -533,6 +533,11 @@ img#site-title {
   border:#F39C12 solid 1px;
 }
 
+.white-color
+{
+  color:white!important;
+}
+
 .table tr td {
   border-bottom:#F39C12 solid 1px;
   color:black;
@@ -865,6 +870,16 @@ textarea.contact {
 .gototop i {
   color: #F39C12;
   line-height: 40px;
+}
+
+.nav-link
+{
+  color: #300F00!important;
+}
+
+a:hover
+{
+  text-decoration: none!important;
 }
 
 .footer a,.footer a:hover {
