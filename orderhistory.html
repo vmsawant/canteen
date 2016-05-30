@@ -89,10 +89,10 @@
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse">
-       <ul class="nav navbar-nav">
-        <li><a href="homepage.html" class="scroll-link">Home</a></li>
-        <li><a href="orderpage.html" class="scroll-link">Order</a></li>
-        <li class="dropdown" class="scroll link">
+			 <ul class="nav navbar-nav">
+			  <li><a href="homepage.html" class="scroll-link">Home</a></li>
+			  <li><a href="orderpage.html" class="scroll-link">Order</a></li>
+			  <li class="dropdown" class="scroll link">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Report <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="dailyreports.html">Daily Report</a></li>
@@ -102,8 +102,8 @@
           </ul>
         </li>
       
-        <li><a href="weeklymenupage.html" class="scroll-link">Weekly Menu</a></li> 
-        <li class="dropdown" class="">
+			  <li><a href="weeklymenupage.html" class="scroll-link">Weekly Menu</a></li> 
+			  <li class="dropdown" class="">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Account <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="login.html">Log In</a></li>
@@ -112,107 +112,160 @@
             <li><a href="homepage.html">SignOut</a></li>
           </ul>
         </li>
-      </ul>
+			</ul>
       </div>
       </div>  
 		</nav>
 	</div>		
 	</header>
+<div class="col-sm-12">
 
   
-  
-    <div class="container">
+ 
+  <div class="wrapper">
       <div class="heading">     
-      <h2>Wastage Weekly Reports</h2>     
-      <!--<h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.<br>
-       Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.</h3>-->
-    </div> 
-    <div class="label-txt">Item: <span class="badge">Dosa</span></div>
-      <table class="table table-condensed table-bordered">
-        <tr>
-          <th width="50px">Sr. No.</th>
-          <th>Employee Name</th>
-          <th width="100px">Order</th>
-        </tr>
+        <h2>Your Orders</h2>     
+      </div> 
+      <div class="row">
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Manchow Soup</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Paneer Tikka</h3>
+                  <div class="box-area-text">Hotel : Modern <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Refreshments</h3>
+                  <div class="box-area-text">Hotel :xyz <br>Bill Amount : Rs.100<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Lunch Thali</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Pav Bhaji</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Mango Juice</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-area">
+                  <h3>Aloo Paratha</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div><div class="col-md-3">
+              <div class="box-area">
+                  <h3>Spring Rolls</h3>
+                  <div class="box-area-text">Hotel : Kung Food <br>Bill Amount : Rs.200<br>Order Date : dd/mm/yyyy</div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="heading">     
+    <h2>Your Orders</h2>     
+  </div> 
+  <table class="table text-center">
+      <tr>
+        <thead><th class="text-center">Sr. No.</th>
+        <th class="text-center">Order Date</th>
+        <th  class="text-center">Order</th>
+        <th class="text-center">Bill Amount</th>
+        <th class="text-center">Paid</th>
+        </thead>
+      </tr>
         <tr>
           <td>1</td>
-          <td>Mausumi Swain</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Harish Shukla</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>3</td>
-          <td>Mohit Singh</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>4</td>
-          <td>Vishal Sawant</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>5</td>
-          <td>Sumanta Das</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>6</td>
-          <td>Rajesh Kumar</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>7</td>
-          <td>Vishal Shukla</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>8</td>
-          <td>Lalit Singh</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>9</td>
-          <td>Varsha Sawant</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
         <tr>
           <td>10</td>
-          <td>Sumanta Das</td>
+          <td>02/05/2015</td>
+          <td class="text-center">Bread Rolls</td>
+          <td>Rs.50</td>
           <td class="text-center"><input class="check-box" type="checkbox"></td>
         </tr>
-        <tr>
-          <td>11</td>
-          <td>Sumanta Das</td>
-          <td class="text-center"><input class="check-box" type="checkbox"></td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>Rajesh Kumar</td>
-          <td class="text-center"><input class="check-box" type="checkbox"></td>
-        </tr>
-        <tr>
-          <td>13</td>
-          <td>Vishal Shukla</td>
-          <td class="text-center"><input class="check-box" type="checkbox"></td>
-        </tr>
-        <tr>
-          <td>14</td>
-          <td>Lalit Singh</td>
-          <td class="text-center"><input class="check-box" type="checkbox"></td>
-        </tr>
-        <tr>
-          <td>15</td>
-          <td>Varsha Sawant</td>
-          <td class="text-center"><input class="check-box" type="checkbox"></td>
-        </tr>
+        
       </table>
-      <div class="right">
-        <button class="btn btn-submit">Submit</button>
-      </div>
+      
     </div>
   </div>
 
